@@ -1,6 +1,6 @@
 
 
-from matgeo import dist2p
+from matgeo import dist2p	#eu nao sei se ja existe uma funcao para calcular a distancia entre 2 pontos,entao eu criei uma.
 import random
 
 class pessoa:	#clase q cria pessoa
