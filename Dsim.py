@@ -83,7 +83,7 @@ class simu:	#o programa em si
 			self.pessoacontamina()
 			print("dia:{} ".format(d+1))
 			self.listamedia()
-			if(len(self.populacao)==len(self.populacaoc)):
+			if(len(self.populacao)==len(self.populacaoc)):	#cancela a simulacao se todos estao doentes
                                 break
 
 	def smalltest(self):
@@ -98,7 +98,7 @@ class simu:	#o programa em si
 			print("dia:{} ".format(d+1))
 			smalltest.listapessoas()
 			time.sleep(1)
-			if(len(smalltest.populacao)==len(smalltest.populacaoc)):
+			if(len(smalltest.populacao)==len(smalltest.populacaoc)):	#cancela a simulacao se todos estao doentes
                                 break
         
         
